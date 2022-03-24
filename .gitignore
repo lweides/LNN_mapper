@@ -1,0 +1,6 @@
+venv
+output
+__pycache__
+.vscode
+output.qasm
+results.csv
