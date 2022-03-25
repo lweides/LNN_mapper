@@ -13,7 +13,7 @@ class State:
     Represents a state in the search space
   """
 
-  BRIDGE_DISTANCE = 2
+  BRIDGE_DISTANCE = 3
 
   def __init__(self, working_set: Set[Gate], resolved_gates: Set[Gate], mapping: Mapping, cost: int, remaining_cost: int, output: Gate, parent: "State", used_qubits: Set[int], checkpoint: Checkpoint):
     """
